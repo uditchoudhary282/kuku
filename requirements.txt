@@ -1,0 +1,11 @@
+langgraph>=1.0
+langgraph-checkpoint-sqlite>=3.0
+langchain>=1.0
+langchain-core>=1.0
+pydantic>=2.6
+streamlit>=1.50
+pandas
+pytest
+# LLM providers (pick the one you have a key for; all optional for the free heuristic backend)
+langchain-openai
+langchain-google-genai
