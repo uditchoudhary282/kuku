@@ -481,7 +481,7 @@ if not ss.thread:
                 start_run("heuristic")
             if st.button(f"✦  Run with {model if model != 'heuristic' else 'an LLM (pick in sidebar)'}", width="stretch"):
                 if model == "heuristic":
-                    st.toast("Choose an LLM backend in the sidebar and paste its key.", icon="✦")
+                    st.toast("Pick an LLM (e.g. hybrid:openai:gpt-4o-mini) under Model in the sidebar and paste its key.", icon="🤖")
                 else:
                     start_run(model)
             st.markdown('<div class="muted" style="margin-top:.7rem">🔒 Upload only scripts you are allowed to process. '
